@@ -1,0 +1,202 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #FFFFF0;
+}
+#container{
+	width: 80%;
+	border: 5px dotted #800000;
+	margin: 0px auto;
+}
+header{
+	height: 100px;
+	width: 100%;
+	line-height: 100px;
+	text-align: center;
+	background: #CD5C5C;
+	color: #FFDAB9;
+	margin: 0px;
+	padding: 0px;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+
+
+}
+
+nav ul li {
+  font-style: italic;
+	float: left;
+	color: black;
+	line-height: 20px;
+	margin: 10px;
+}
+a{
+	color: black;
+}
+nav{
+	background-color: #F5FFFA;
+	height: 50px;
+	border: 10px solid #FFE4B5;
+	padding-left: 220px;
+
+}
+.divider{
+	clear: both;
+}
+
+section{
+	width: 74%;
+	min-height: 410px;
+	float: left;
+	background-color: #FFFFF0;
+	color:black;
+}
+
+aside{
+	background: #F0E68C;
+	min-height: 400px;
+	padding: 5px;
+	width: 25%;
+	float: right;
+}
+footer{
+	line-height: 30px;
+	background: #CD5C5C;
+	text-align: center;
+	color: white; 
+}
+aside.pasatiempos{
+	background:#F0E68C;
+	min-height: 556px;
+	padding: 5px;
+	width: 25%;
+	float: right;
+}
+#tableEstudios{
+ 
+  width: 85%
+}
+div.gallery1 {
+  margin: 5px;
+  border: 5px solid black;
+  float: left;
+  width: 238px;
+}
+
+div.gallery1 img {
+  width: 100%;
+  height: auto;
+}
+div.gallery2 {
+  margin: 5px;
+  border: 5px solid black;
+  float: left;
+  width: 270px;
+}
+
+div.gallery2 img {
+  width: 100%;
+  height: auto;
+}
+div.gallery3 {
+  margin: 5px;
+  border: 5px solid black;
+  float: left;
+  width: 238px;
+}
+
+div.gallery3 img {
+  width: 100%;
+  height: auto;
+}
+div.gallery4 {
+  margin: 5px;
+  border: 5px solid black;
+  float: left;
+  width: 270px;
+}
+
+div.gallery4 img {
+  width: 100%;
+  height: 125px;
+}
+div.gallery5 {
+  margin: 5px;
+  border: 5px solid black;
+  float: left;
+  width: 238px;
+}
+
+div.gallery5 img {
+  width: 100%;
+  height: auto;
+}
+div.gallery6 {
+  margin: 5px;
+  border: 5px solid black;
+  float: left;
+  width: 270px;
+}
+
+div.gallery6 img {
+  width: 100%;
+  height: 163PX;
+}
+div.gallery7 {
+  margin: 5px;
+  border: 5px dotted #DAA520;
+  float: left;
+  width: 200px;
+}
+
+div.gallery7 img {
+  width: 100%;
+  height: 150PX;
+}
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 25%;
+  background-color: #2E8B57;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+section.proyectos{
+    background-image: url("proyectosIMG.png");
+
+}
+section.contactos{
+    background-image: url("contactoIMG.png");
+
+}
+section.estudios{
+
+    background-image: url("estudioIMG.png")
+
+}
+section.intereses{
+
+    background-image: url("interesesIMG.png")
+
+}
+
